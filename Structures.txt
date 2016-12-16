@@ -1,0 +1,32 @@
+#include <studio.h>
+#include <stlib.h>
+#include <malloc.h>
+#define n 200
+
+
+
+struct Discipline{
+title[n];
+int grade;
+}
+struct Teacher {   
+	char name[20];  
+	char surname[20];  
+ };  
+ 
+ struct Student {  
+ 	char name[20];  
+ 	char surname[20];  
+	char group[6];  
+ };   
+ 
+ struct Test {  
+ 	char theme[100];  
+ 	char variant[5];  
+ 	char aim[100];  
+ 	char tasks[100];  
+ 	int count_of_tasks;  
+	char test_questions[200];  
+	int count_of_questions;  
+ 	int grade;  
+ };  
